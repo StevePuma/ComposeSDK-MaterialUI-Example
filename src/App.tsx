@@ -8,8 +8,8 @@ function App() {
   return (
     <div style={{height:'300px', width:'100%'}}>
       <SisenseContextProvider
-        url="https://fintechapp.sisensepoc.com/" // replace with the URL of your Sisense instance
-        token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjQ1YzIyNWY1MmY5ZDcwMDJlMzYxNTg2IiwiYXBpU2VjcmV0IjoiOTZiNDYzMWItNjk0OS03NzA5LWUxZWItYzAyMWU1NzQzODEzIiwiYWxsb3dlZFRlbmFudHMiOlsiNjQ1YzFlNTE3NTc5NjUwMDFiNDMzNWQ2Il0sInRlbmFudElkIjoiNjQ1YzFlNTE3NTc5NjUwMDFiNDMzNWQ2In0.Ri9ElDsX_o26oh0E942Di4bCplLJkrKcU9r01vy5aQ0"
+        url="YOURSISENSEURL" // replace with the URL of your Sisense instance
+        token="YOURAPITOKEN"
       >
         <Chart
           dataSet={DM.DataSource}
